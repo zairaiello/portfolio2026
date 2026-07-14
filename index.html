@@ -7,82 +7,17 @@
 <meta name="description" content="Zaira Aiello, Communication Designer — branding, editorial design, typography and visual communication.">
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="intro-page">
 
-  <nav class="nav">
-    <a class="nav-name" href="index.html">Zaira Aiello</a>
-    <div class="nav-links">
-      <a href="about.html">About</a>
-      <a href="work.html">Work</a>
-    </div>
-  </nav>
-
-  <!-- COVER -->
-  <header class="hero" id="top">
-    <div class="grid-bg on-dark"></div>
-
-    <div class="hero-top">
-      <div class="hero-letter a">A</div>
-      <div class="hero-arrow"></div>
-      <div class="hero-letter z">Z</div>
-    </div>
-
-    <h1 class="hero-title" data-scramble><span class="paren">(</span>Zaira's Portfolio<span class="paren">)</span></h1>
-
-    <div class="hero-bottom">
-      <div class="item"><span>E-mail</span><strong>aiellozaira@gmail.com</strong></div>
-      <div class="item"><span>Mobile</span><strong>+39 391 469 67 00</strong></div>
-      <div class="item"><span>Year</span><strong>2026</strong></div>
-      <div class="hero-tagline">Communication<br>Design from A to Z.</div>
-    </div>
-
-    <div class="scroll-cue"></div>
-  </header>
-
-  <div class="marquee">
-    <div class="marquee-track">
-      <span>BRANDING</span><span>—</span>
-      <span>EDITORIAL DESIGN</span><span>—</span>
-      <span>TYPOGRAPHY</span><span>—</span>
-      <span>VISUAL COMMUNICATION</span><span>—</span>
-      <span>WEB DESIGN</span><span>—</span>
-      <span>BRANDING</span><span>—</span>
-      <span>EDITORIAL DESIGN</span><span>—</span>
-      <span>TYPOGRAPHY</span><span>—</span>
-      <span>VISUAL COMMUNICATION</span><span>—</span>
-      <span>WEB DESIGN</span><span>—</span>
-    </div>
+  <!-- INTRO / COVER — your own cover artwork, used as-is.
+       The plain version shows first; the grid version fades
+       in on top of it shortly after. The whole screen is
+       clickable (or press Enter) to go to the real site. -->
+  <div class="intro" id="intro" data-color="#1a1919" role="link" aria-label="Enter the site" tabindex="0">
+    <img class="intro-img base" src="assets/cover/cover-plain.png" alt="Zaira's Portfolio — A selection of projects exploring branding, editorial design, typography and visual communication. Communication Design from A to Z.">
+    <img class="intro-img grid" src="assets/cover/cover-grid.png" alt="" aria-hidden="true">
+    <div class="intro-enter"><span class="dot"></span> Enter</div>
   </div>
-
-  <section class="quote">
-    <p class="reveal">
-      I don't believe in random choices. For me, design is about building
-      functional systems where every single detail serves a purpose.
-    </p>
-  </section>
-
-  <a class="section-link reveal" href="about.html" data-transition data-color="#1a1919">
-    <h2>About me :)</h2>
-    <span class="go">Read more ↗</span>
-  </a>
-
-  <a class="section-link reveal" href="work.html" data-transition data-color="#1a1919">
-    <h2>Work</h2>
-    <span class="go">View projects ↗</span>
-  </a>
-
-  <footer class="footer">
-    <canvas id="footer-canvas"></canvas>
-    <div class="footer-inner">
-      <h2 data-scramble>Thanks :)</h2>
-      <div class="footer-grid">
-        <a href="mailto:aiellozaira@gmail.com">aiellozaira@gmail.com</a>
-        <a href="tel:+393914696700">+39 391 469 67 00</a>
-        <a href="https://instagram.com/zaira.aiello" target="_blank" rel="noopener">@zaira.aiello</a>
-      </div>
-      <small>Zaira Aiello — Portfolio 2026</small>
-    </div>
-  </footer>
 
   <script src="js/main.js"></script>
 </body>
