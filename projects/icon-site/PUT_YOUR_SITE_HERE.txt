@@ -1,1 +1,0 @@
-Questa cartella ospiterà il codice del sito web di ICON (quello che mi manderai zippato). Basta scompattare qui dentro mantenendo un file index.html nella root di questa cartella.
